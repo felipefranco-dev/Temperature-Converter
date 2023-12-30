@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <img src="./assets/giphy.gif" alt="gif-temperatura" class="img-central">
+
+    <div class="div-mae">
+
+        <label>
+            Converter <b>de</b>
+            <select class="select-for">
+                <option>Grau Celsius</option>
+            </select>
+        </label>
+
+        <label>
+            <br>
+            Converter <b>para</b>
+            <select class="select-to" onchange="change ()">
+                <option>Grau Fahrenheit</option>
+                <option>Kevin</option>
+            </select>
+        </label>
+
+        <label>
+            <b>Graus</b>
+            <input>
+        </label>
+
+        <button onclick="clicado ()">Converter</button>
+
+        <div class="div-filho">
+            <img src="" alt="">
+            <p class="frases-bot" id="converter">Grau Celsius</p>
+            <p class="frases-bot" id="converter-value">100°</p>
+
+            <img src="./assets/Vector.png" alt="imagem-vetor" class="img-vetor">
+
+            <img src="" alt="">
+            <p class="frases-bot" id="converted">Grau Fahrenheit</p>
+            <p class="frases-bot" id="converted-value">212°</p>
+
+        </div>
+    </div>
+
+</body>
+
+<script src="./scripts.js"></script>
+
+</html>
